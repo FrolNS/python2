@@ -16,5 +16,5 @@ print(indexes)
 newindexes = list(map(int, indexes))
 count = 1
 for i in newindexes:
-    count = count * newn[newindexes[i]]
+    count *= newn[newindexes[i]]
 print(count)
